@@ -15,10 +15,10 @@ export default function App() {
   }
 
   return (
-    <div style={{ maxWidth: '600px', margin: '2em auto' }}>
+    <div style={{ maxWidth: '700px', margin: '2em auto', padding: '0 32px', boxSizing: 'border-box' }}>
       <h1>Reactでcontenteditableを使うサンプル</h1>
       <hr />
-      <div style={{ backgroundColor: '#f5f5f5' }}>
+      <div style={{ padding: '16px', backgroundColor: '#f5f5f5' }}>
         <ContentEditable value={text} onChange={setText} onBlur={handleTextBlur} />
       </div>
       <div>
@@ -26,7 +26,7 @@ export default function App() {
         <div style={{ color: '#666' }}>{text}</div>
       </div>
       <hr />
-      <div style={{ backgroundColor: '#f5f5f5' }}>
+      <div style={{ padding: '16px', backgroundColor: '#f5f5f5' }}>
         <ContentEditable value={name} onChange={setName} onBlur={handleNameBlur} />
       </div>
       <div>
