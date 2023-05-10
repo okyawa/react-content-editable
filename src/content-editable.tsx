@@ -6,6 +6,9 @@ type ContentEditableProps = {
   onBlur: () => void;
 };
 
+/**
+ * 編集可能なdiv要素のコンポーネント
+ */
 const ContentEditable = ({value, onChange, onBlur}: ContentEditableProps) => {
   const defaultValue = useRef<string>(value);
 
