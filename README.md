@@ -11,6 +11,8 @@
 
 ![スクリーンショット](https://github.com/okyawa/react-custom-elements-sample/assets/1934996/f8e9207a-fff5-4d11-ae22-f57c81df080b)
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/okyawa/react-content-editable)
+
 
 ## ローカル環境での使い方
 
